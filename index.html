@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts link for Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="backend.js" defer></script>
     <title>Pizza Recipe Bot</title>
 </head>
 <body>
@@ -12,6 +16,31 @@
                 Chatbot
             </h2>
         </header>
+    <ul class="chatbox">
+    <li class="chat incoming">
+        <span class="material-symbols-outlined">smart_toy</span>
+        <p>Hi there 👋</p>
+    <br>
+        <!-- <p>
+            <button type="button">Classics</button>
+        </p> -->
+        <!-- <input type="button" class='break' value="Classics"><br>
+         <input type="button" class='break' value="Regional Specialities"><br>
+        <input type="button" class='pizza-category' value="Gournment and Unique"><br>
+        <input type="button" class='pizza-category' value="International Pizza"><br>
+        <input type="button" class='pizza-category' value="Sweet Pizza"><br> -->
+        <!-- <button type="button">Classics</button> -->
+    </li>
+    <li class="chat outgoing">
+        <p>
+        Hey Bot!
+    </p>
+    </li>
+</ul>
+    <div class="chat-input">
+        <textarea name="user_input" placeholder="Enter a message....." required></textarea>
+        <span id="send-btn" class="material-symbols-outlined">send</span>
     </div>
+</div>
 </body>
 </html>
